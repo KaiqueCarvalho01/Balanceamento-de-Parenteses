@@ -28,5 +28,5 @@ Este projeto implementa um algoritmo para verificar se os parênteses em uma exp
 ## Contribuição
 Sinta-se à vontade para contribuir com melhorias ou correções para este projeto. Para isso, faça um fork do repositório, crie uma branch para suas alterações e envie um pull request.
 
-Licença
+## Licença
 Este projeto está licenciado sob a MIT License.
