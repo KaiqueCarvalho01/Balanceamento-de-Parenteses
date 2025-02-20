@@ -74,8 +74,9 @@ bool pop(char *valor) {
 bool balanceando(char *expressao) {
     char parenteses;
 
+    int caracteres = strlen(expressao);
     // Percorre a expressão
-    for (int i = 0; i < strlen(expressao); i++) {
+    for (int i = 0; i < caracteres; i++) {
         parenteses = expressao[i];
 
         //Se for um parêntese de abertura, insere na pilha
@@ -91,7 +92,7 @@ bool balanceando(char *expressao) {
                 return false; // Pilha vazia
             }
             //Se o parêntese de fechamento não corresponder ao topo da pilha
-            if ((parenteses == ')' && topo != '(') ) {
+            if (topo != '(' ) {
                 return false; // Parêntese de fechamento não corresponde ao topo da pilha
             }
         }

@@ -1,6 +1,11 @@
 #include <stdio.h>
-#include "Pilha.C"
+#include "Pilha.c"
 #include "Pilha.h"
+
+// Desenvolvido por:
+// Kaique Santos de Carvalho
+// Rogério de Lima
+
 
 /**
  * @brief Função principal do programa
